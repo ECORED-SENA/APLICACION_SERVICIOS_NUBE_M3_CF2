@@ -144,6 +144,8 @@
     .titulo-segundo#t_1_3.mt-5
       h2 1.3 Sistemas basados en MySQL
 
+    p(data-aos="fade-up") Existen otros sistemas que son completamente compatibles 100% con MySQL, es decir, que toda base de datos que es gestionada por MySQL puede ser gestionada en otro motor de sistema de gestión de bases de datos, un ejemplo de ello es MariaDB.
+
     .bloque-texto-a.color-secundario.mb-5.caja_flotante_azul(data-aos="fade-up")
       .row.m-0.align-items-center.justify-content-between
         .col-lg-4.mb-4.mb-lg-0

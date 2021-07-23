@@ -299,6 +299,9 @@
             td.p-4(style="width:30%;") #[strong FOREIGN KEY (`id_persona`)]
             td(style="width:70%;") Indica la columna  que es llave foránea, es decir, que id_persona es una referencia de una fila de otra tabla.
           tr
+            td.p-4(style="width:30%;") #[strong REFERENCES `mydb`.`persona` (`id_persona`)]
+            td(style="width:70%;") La fila de la otra tabla de la que es referencia de la base de datos mydb, tabla persona columna id_persona.
+          tr
             td.p-4(style="width:30%;") #[strong ON DELETE NO ACTION]
             td(style="width:70%;") Qué acción debe hacer el SGDB si borran la fila de la tabla persona con los datos de la tabla factura que estén relacionados, acá dice que no le permite borrar personas que ya tienen facturas.
           tr
@@ -338,7 +341,7 @@
             template(#title)
               div.pt-3(style="border-top:1px #B2E6FF solid;")
                 i.fas.fa-caret-right
-                |  2. Ingeniería hacia adelante (Forward Ingingger)
+                |  2. Ingeniería hacia adelante (Forward Ingingger).
             b-card-text
               figure
                 img(src="@/assets/curso/tema2/19.png")
@@ -398,7 +401,7 @@
             template(#title)
               div.pt-3(style="border-top:1px #B2E6FF solid;")
                 i.fas.fa-caret-right
-                |  8. se guarda un archivo “Save to file” y se copia al #[br] portapapeles “Copy to clipboard”
+                |  8. se guarda un archivo “Save to file” y se copia al #[br] portapapeles “Copy to clipboard”.
             b-card-text
               figure
                 img(src="@/assets/curso/tema2/25.png")
@@ -1076,7 +1079,7 @@ export default {
   color: #FFA726
 @font-face
   font-family: "Inconsolata"
-  src: url("/fonts/Inconsolata-VariableFont_wdth,wght.ttf")
+  src: url("/fonts/courier-new_[allfont.es].ttf")
 .anexo *
   color: #12263f !important
 .container__tabs__1 .card

@@ -60,11 +60,11 @@
                 i.fas.fa-caret-right
                 |  1. hacer una conexión a la base de datos
             b-card-text
+              .p-4.mt-2.caja_flotante(data-aos="fade-up" style="background-color:#F6F6F6;")
+                p Antes de cualquier cosa se debe hacer una conexión a la base de datos si no existe dando clic en la casa y luego en el icono más “+”.
               figure
                 img(src="@/assets/curso/tema3/1.png")
                 figcaption 1. hacer una conexión a la base de datos
-              .p-4.mt-2.caja_flotante(data-aos="fade-up" style="background-color:#F6F6F6;")
-                p Antes de cualquier cosa se debe hacer una conexión a la base de datos si no existe dando clic en la casa y luego en el icono más “+”.
 
           b-tab
             template(#title)
@@ -311,7 +311,7 @@ export default {
   color: #FFA726
 @font-face
   font-family: "Inconsolata"
-  src: url("/fonts/Inconsolata-VariableFont_wdth,wght.ttf")
+  src: url("/fonts/courier-new_[allfont.es].ttf")
 .anexo *
   color: #12263f !important
 .container__tabs__1 .card
