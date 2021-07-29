@@ -459,7 +459,7 @@
             template(#title)
               div.pt-3(style="border-top:1px #B2E6FF solid;")
                 i.fas.fa-caret-right
-                |  1. Esto se logra dando clic en Database > #[br] Synchronize Model:
+                |  1. Esto se logra dando clic en Database > #[br] Synchronize Model.
             b-card-text
               figure
                 img(src="@/assets/curso/tema2/29.png")
@@ -529,7 +529,7 @@
             template(#title)
               div.pt-3(style="border-top:1px #B2E6FF solid;")
                 i.fas.fa-caret-right
-                |  8. Actualizar el modelo (diagrama)
+                |  8. Actualizar el modelo (diagrama).
             b-card-text
               figure
                 img(src="@/assets/curso/tema2/36.png")
